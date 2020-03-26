@@ -368,6 +368,7 @@ host-suffix, teamviewer.com, Domestic
 host-suffix, tianyancha.com, Domestic
 host-suffix, udacity.com, Domestic
 host-suffix, uning.com, Domestic
+host-suffix, v2ex.com, Domestic
 host-suffix, vmware.com, Domestic
 host-suffix, weather.com, Domestic
 host-suffix, weico.cc, Domestic
