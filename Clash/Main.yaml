@@ -1137,19 +1137,23 @@ Rule:
   - DOMAIN-SUFFIX,classix-unlimited.co.uk,Domestic
   - DOMAIN-SUFFIX,empornium.me,Domestic
   - DOMAIN-SUFFIX,gazellegames.net,Domestic
+  - DOMAIN-SUFFIX,hdbits.org,Domestic
   - DOMAIN-SUFFIX,hdchina.org,Domestic
+  - DOMAIN-SUFFIX,hdhome.org,Domestic
   - DOMAIN-SUFFIX,hdsky.me,Domestic
   - DOMAIN-SUFFIX,icetorrent.org,Domestic
   - DOMAIN-SUFFIX,jpopsuki.eu,Domestic
   - DOMAIN-SUFFIX,keepfrds.com,Domestic
-  - DOMAIN-SUFFIX,madsrevolution.net,Domestic
   - DOMAIN-SUFFIX,m-team.cc,Domestic
+  - DOMAIN-SUFFIX,madsrevolution.net,Domestic
+  - DOMAIN-SUFFIX,morethan.tv,Domestic
   - DOMAIN-SUFFIX,nanyangpt.com,Domestic
   - DOMAIN-SUFFIX,ncore.cc,Domestic
   - DOMAIN-SUFFIX,open.cd,Domestic
   - DOMAIN-SUFFIX,ourbits.club,Domestic
   - DOMAIN-SUFFIX,passthepopcorn.me,Domestic
   - DOMAIN-SUFFIX,privatehd.to,Domestic
+  - DOMAIN-SUFFIX,pterclub.com,Domestic
   - DOMAIN-SUFFIX,redacted.ch,Domestic
   - DOMAIN-SUFFIX,springsunday.net,Domestic
   - DOMAIN-SUFFIX,tjupt.org,Domestic
@@ -1308,7 +1312,6 @@ Rule:
   - DOMAIN-SUFFIX,tianyancha.com,Domestic
   - DOMAIN-SUFFIX,udacity.com,Domestic
   - DOMAIN-SUFFIX,uning.com,Domestic
-  - DOMAIN-SUFFIX,v2ex.com,Domestic
   - DOMAIN-SUFFIX,vmware.com,Domestic
   - DOMAIN-SUFFIX,weather.com,Domestic
   - DOMAIN-SUFFIX,weico.cc,Domestic

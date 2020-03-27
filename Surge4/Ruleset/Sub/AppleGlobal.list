@@ -12,4 +12,3 @@ DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN,cdn.apple-cloudkit.com
 # >> Movie Stream
 DOMAIN-SUFFIX,hls-amt.itunes.apple.com
-

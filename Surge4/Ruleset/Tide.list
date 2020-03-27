@@ -54,6 +54,7 @@ URL-REGEX,^https?+:\/\/pan\.baidu\.com\/rest\/2\.0\/pcs\/adx
 URL-REGEX,^https?+:\/\/pan\.baidu\.com\/act\/api\/activityentry
 URL-REGEX,^https?+:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/guanggao\/
 # >> 百度贴吧
+IP-CIDR,180.76.76.200/32,no-resolve
 URL-REGEX,^https?+:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule
 URL-REGEX,^https?+:\/\/c\.tieba\.baidu\.com\/c\/f\/forum\/getAdInfo
 URL-REGEX,^https?+:\/\/c\.tieba\.baidu\.com\/\w+?\/\w+?\/(?:sync|newRnSync|mlog)
@@ -81,6 +82,9 @@ URL-REGEX,^https?+:\/\/app\.api\.ke\.com\/config\/config\/bootpage
 URL-REGEX,^https?+:\/\/status\.boohee\.com\/api\/v\d\/app_square\/start_up_with_ad
 
 # C
+# > CNKI
+# >> 手机知网
+URL-REGEX,^https?+:\/\/xyz\.cnki\.net\/resourcev7\/api\/manualpush\/SlidsList$
 # > CNTV
 URL-REGEX,^https?+:\/\/cntv\.hls\.cdn\.myqcloud\.com\/.+?\?maxbr=850
 URL-REGEX,^https?+:\/\/asp\.cntv\.myalicdn\.com\/.+?\?maxbr=850
@@ -120,6 +124,8 @@ URL-REGEX,^https?+:\/\/capis(?:-slb)?\.didapinche\.com\/ad\/
 URL-REGEX,^https?+:\/\/www\.didapinche\.com\/app\/adstat\/
 # > 电视家
 URL-REGEX,^https?+:\/\/api\.gaoqingdianshi\.com\/api\/v\d\/ad\/
+# > 毒
+URL-REGEX,^https?+:\/\/app\.poizon\.com\/api\/v1\/app\/advertisement\/adv\/
 
 # E
 # > 艺龙
@@ -349,6 +355,17 @@ URL-REGEX,^https?+:\/\/(?:(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(?:25[0-5]|2
 URL-REGEX,^https?+:\/\/r\.inews\.qq\.com\/(?:adsBlacklist|getFullScreenPic|getQQNewsRemoteConfig)
 # >> 腾讯体育
 URL-REGEX,^https?+:\/\/news\.ssp\.qq\.com\/app
+# >> JOOX
+URL-REGEX,^https?+:\/\/hk\.app\.joox\.com\/retrieval\/getAd
+URL-REGEX,^https?+:\/\/hk\.app\.joox\.com\/billsrv\/clientBatchAdReport
+IP-CIDR,203.205.239.44/32,no-resolve
+IP-CIDR,203.205.255.16/32,no-resolve
+URL-REGEX,^https?+:\/\/203\.205\.255\.16\/retrieval\/getAd
+URL-REGEX,^https?+:\/\/smusic\.app\.wechat\.com\/commonCgi\/advertisement\/get_orint_egg$
+URL-REGEX,^https?+:\/\/smusic\.app\.wechat\.com\/fcgi-bin\/get_(?:a|i)
+URL-REGEX,^https?+:\/\/tiasdk\.app\.wechat\.com\/retrieval\/getAdInfo$
+URL-REGEX,^https?+:\/\/mm\.app\.joox\.com\/retrieval\/getAd
+URL-REGEX,^https?+:\/\/mm\.app\.joox\.com\/billsrv\/clientBatchAdReport$
 # >> 微信
 URL-REGEX,^https?+:\/\/mp\.weixin\.qq\.com\/mp\/(?:ad_|advertisement|getappmsgad)
 # > 澎湃新闻

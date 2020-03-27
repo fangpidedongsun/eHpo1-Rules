@@ -4,6 +4,8 @@ host-suffix, ,hls.itunes.apple.com, AppleGlobal
 host, devimages-cdn.apple.com, AppleGlobal
 host, devstreaming-cdn.apple.com, AppleGlobal
 host, js-cdn.music.apple.com, AppleGlobal
+# >> iBooks Store download
+host, books.itunes.apple.com, AppleGlobal
 # >> iTunes Music Stream
 host-suffix, ,audio-ssl.itunes.apple.com, AppleGlobal
 host-suffix, ,cdn-apple.com, AppleGlobal
