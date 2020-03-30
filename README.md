@@ -105,7 +105,7 @@ API 服务类  推荐选择账号所在区
 
 本项目早期基于 [***ConnersHua***](https://github.com/ConnersHua) 去广告规则，参考众多大佬的项目拼凑而成。致力于打造无广告、简洁、舒适的环境。
 
-如果您发现项目有需要改进的地方请通过 **[提交Issue](/issues/new/choose)** 或者在 **[Telegram频道](https://t.me/eHpo2)** 中评论的方式对项目进行补充完善。
+如果您发现项目有需要改进的地方请通过 **[提交Issue](https://github.com/eHpo1/Rules/issues/new/choose)** 或者在 **[Telegram频道](https://t.me/eHpo2)** 中评论的方式对项目进行补充完善。
 
 ---
 
