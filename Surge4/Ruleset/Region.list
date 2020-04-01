@@ -1,8 +1,8 @@
 # Region.list
 # > LAN
+DOMAIN-SUFFIX,local
 DOMAIN,captive.apple.com
 DOMAIN,localhost
-DOMAIN-SUFFIX,local
 IP-CIDR,0.0.0.0/8,no-resolve
 IP-CIDR,10.0.0.0/8,no-resolve
 IP-CIDR,127.0.0.0/8,no-resolve

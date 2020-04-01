@@ -142,7 +142,6 @@ ip-cidr, 114.247.28.96/32, AdBlock
 ip-cidr, 221.179.131.72/32, AdBlock
 ip-cidr, 221.179.140.145/32, AdBlock
 # > Dr.Peng
-# ip-cidr, 10.72.25.0/24
 ip-cidr, 115.182.16.79/32, AdBlock
 ip-cidr, 118.144.88.126/32, AdBlock
 ip-cidr, 118.144.88.215/32, AdBlock
@@ -164,8 +163,8 @@ host, adashbc.ut.taobao.com, AdBlock
 host, adashx.m.taobao.com, AdBlock
 host, adashxgc.ut.taobao.com, AdBlock
 host, agoodm.m.taobao.com, AdBlock
-host, ai.taobao.com, AdBlock
 host, ai.m.taobao.com, AdBlock
+host, ai.taobao.com, AdBlock
 host, api.waptest.taobao.com, AdBlock
 host, apoll.m.taobao.com, AdBlock
 host, c-adash.m.taobao.com, AdBlock
@@ -174,8 +173,8 @@ host, m-adash.m.taobao.com, AdBlock
 host, nbsdk-baichuan.taobao.com, AdBlock
 host, pics.taobaocdn.com, AdBlock
 host, pindao.huoban.taobao.com, AdBlock
-host, re.taobao.com, AdBlock
 host, re.m.taobao.com, AdBlock
+host, re.taobao.com, AdBlock
 host, rj.m.taobao.com, AdBlock
 host, sdkinit.taobao.com, AdBlock
 host, show.re.taobao.com, AdBlock
@@ -192,9 +191,9 @@ host-suffix, umsns.com, AdBlock
 # > Appsflyer
 host-suffix, appsflyer.com, AdBlock
 # > Baidu
-host, hpd.baidu.com, AdBlock
-host, hm.baidu.com, AdBlock
 host-suffix, pos.baidu.com, AdBlock
+host, hm.baidu.com, AdBlock
+host, hpd.baidu.com, AdBlock
 # > crashlytics
 host-suffix, crashlytics.com, AdBlock
 # > Tencent
@@ -301,19 +300,18 @@ host-suffix, xdrig.com, AdBlock
 host-suffix, yumimobi.com, AdBlock
 host-suffix, zu08e.cn, AdBlock
 host, abema-adx.ameba.jp, AdBlock
-host, ad.12306.cn, AdBlock
-host, ad.360in.com, AdBlock
+host, ad-channel.woyeahgo.tk, AdBlock
+host, ad-cn.jovcloud.com, AdBlock
 host, ad.51wnl-cq.com, AdBlock
+host, ad.360in.com, AdBlock
+host, ad.12306.cn, AdBlock
 host, ad.caiyunapp.com, AdBlock
 host, ad.huajiao.com, AdBlock
 host, ad.hzyoka.com, AdBlock
 host, ad.jiemian.com, AdBlock
 host, ad.qingting.fm, AdBlock
 host, ad.wappalyzer.com, AdBlock
-host, ad-channel.woyeahgo.tk, AdBlock
-host, ad-cn.jovcloud.com, AdBlock
 host, adextra.51wnl-cq.com, AdBlock
-host, api.adnet.mob.com, AdBlock
 host, ads.adadapted.com, AdBlock
 host, ads.chinadaily.com.cn, AdBlock
 host, ads.daydaycook.com.cn, AdBlock
@@ -324,9 +322,10 @@ host, adserver.pandora.com, AdBlock
 host, adshow.58.com, AdBlock
 host, adui.tg.meitu.com, AdBlock
 host, adv.bandi.so, AdBlock
+host, api.adnet.mob.com, AdBlock
 host, app-ad.variflight.com, AdBlock
-host, appnext.hs.llnwd.net, AdBlock
 host, appnext-a.akamaihd.net, AdBlock
+host, appnext.hs.llnwd.net, AdBlock
 host, ggs.myzaker.com, AdBlock
 host, itad.linetv.tw, AdBlock
 host, ja.chushou.tv, AdBlock
@@ -341,9 +340,9 @@ host, sdkauth.hpplay.cn, AdBlock
 # > 58 同城
 # (A)
 # > Apple
-host-suffix, iadsdk.apple.com, AdBlock
 host-suffix, ads.internal.unity3d.com, AdBlock
 host-suffix, ads.prd.ie.internal.unity3d.com, AdBlock
+host-suffix, iadsdk.apple.com, AdBlock
 host-suffix, unityads.unity3d.com, AdBlock
 # > Alibaba
 host, amdc.m.taobao.com, AdBlock
@@ -355,9 +354,9 @@ ip-cidr, 203.119.206.64/32, AdBlock
 ip-cidr, 203.119.211.219/32, AdBlock
 # > AutoHome
 host, adproxy.autohome.com.cn, AdBlock
-host, rd.autohome.com.cn, AdBlock
 host, al.autohome.com.cn, AdBlock
 host, applogapi.autohome.com.cn, AdBlock
+host, rd.autohome.com.cn, AdBlock
 ip-cidr, 103.75.152.210/32, AdBlock
 ip-cidr, 103.75.153.3/32, AdBlock
 # (B)
@@ -366,8 +365,8 @@ host-suffix, cpro.baidu.com, AdBlock
 host, afd.baidu.com, AdBlock
 host, als.baidu.com, AdBlock
 host, duclick.baidu.com, AdBlock
-host, mobads.baidu.com, AdBlock
 host, mobads-logs.baidu.com, AdBlock
+host, mobads.baidu.com, AdBlock
 host, nsclick.baidu.com, AdBlock
 # > ByteDance
 host, ad.toutiao.com, AdBlock
@@ -375,8 +374,8 @@ host, ad.toutiao.com, AdBlock
 host, adx.yiche.com, AdBlock
 host, log.ycapp.yiche.com, AdBlock
 # > bika
-host, ads.wakamoment.tk, AdBlock
 host, ad-display.wikawika.xyz, AdBlock
+host, ads.wakamoment.tk, AdBlock
 # > 百词斩
 host, advertise.baicizhan.com, AdBlock
 host, advertise.baicizhan.org, AdBlock

@@ -295,8 +295,8 @@ Rule:
   - DOMAIN,adashx.m.taobao.com,AdBlock
   - DOMAIN,adashxgc.ut.taobao.com,AdBlock
   - DOMAIN,agoodm.m.taobao.com,AdBlock
-  - DOMAIN,ai.taobao.com,AdBlock
   - DOMAIN,ai.m.taobao.com,AdBlock
+  - DOMAIN,ai.taobao.com,AdBlock
   - DOMAIN,api.waptest.taobao.com,AdBlock
   - DOMAIN,apoll.m.taobao.com,AdBlock
   - DOMAIN,c-adash.m.taobao.com,AdBlock
@@ -305,8 +305,8 @@ Rule:
   - DOMAIN,nbsdk-baichuan.taobao.com,AdBlock
   - DOMAIN,pics.taobaocdn.com,AdBlock
   - DOMAIN,pindao.huoban.taobao.com,AdBlock
-  - DOMAIN,re.taobao.com,AdBlock
   - DOMAIN,re.m.taobao.com,AdBlock
+  - DOMAIN,re.taobao.com,AdBlock
   - DOMAIN,rj.m.taobao.com,AdBlock
   - DOMAIN,sdkinit.taobao.com,AdBlock
   - DOMAIN,show.re.taobao.com,AdBlock

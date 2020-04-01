@@ -3,50 +3,50 @@
 # 0~9
 # > 21经济
 URL-REGEX,"^https?+:\/\/api\.21jingji\.com\/ad\/"
-# > 360doc
-URL-REGEX,"^https?+:\/\/mobi\.360doc\.com\/v\d{2}\/Ajax\/festival\.ashx\?op=getfestivaltheme"
 # > 58同城
+URL-REGEX,"^https?+:\/\/.+?\.58cdn\.com\.cn\/brandads\/"
 URL-REGEX,"^https?+:\/\/app\.58\.com\/api\/home\/a(?>dvertising|ppadv)\/"
 URL-REGEX,"^https?+:\/\/app\.58\.com\/api\/home\/invite\/popupAdv"
 URL-REGEX,"^https?+:\/\/app\.58\.com\/api\/log\/"
-URL-REGEX,"^https?+:\/\/.+?\.58cdn\.com\.cn\/brandads\/"
+# > 360doc
+URL-REGEX,"^https?+:\/\/mobi\.360doc\.com\/v\d{2}\/Ajax\/festival\.ashx\?op=getfestivaltheme"
 
 # A
+# > AcFun
+URL-REGEX,"^https?+:\/\/aes\.acfun\.cn\/s\?adzones"
+# > APICloud
+URL-REGEX,"^https?+:\/\/a\.apicloud\.com\/start_page\/"
+# > 爱回收
+URL-REGEX,"^https?+:\/\/gw\.aihuishou\.com\/app-portal\/home\/getadvertisement"
+# > 爱思助手
+URL-REGEX,"^https?+:\/\/list-app-m\.i4\.cn\/getopfstadinfo\.xhtml"
 # > 阿里
 URL-REGEX,"^https?+:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.tmall\.wireless"
 # >> 1688
 URL-REGEX,"^https?+:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv"
 # >> 阿里妈妈
 URL-REGEX,"^https?+:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimama\.etao\.config\.query"
-# >> 闲鱼
-URL-REGEX,"^https?+:\/\/acs\.m\.taobao\.com\/gw\/mtop\.taobao\.idle\.home\.welcome\/"
 # >> 飞猪
 URL-REGEX,"^https?+:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsresources\/"
+# >> 高德地图
+URL-REGEX,"^https?+:\/\/m\d\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/"
+# >> 口碑
+URL-REGEX,"^https?+:\/\/render\.alipay\.com\/p\/s\/h5data\/prod\/spring-festival-2019-h5data\/popup-h5data\.json"
+URL-REGEX,"^https?+:\/\/acs\.m\.taobao\.com\/gw\/mtop\.o2o\.ad\.gateway\.get\/"
 # >> 淘宝
 URL-REGEX,"^https?+:\/\/(?>heic|gw)\.alicdn\.com\/tfs\/TB1.+?-\d{4}-\d{4}\.jpg_1200x1200q90\.jpg_\.\w{3,4}+$"
 URL-REGEX,"^https?+:\/\/heic\.alicdn\.com\/tps\/i4\/.+?\.jpg_1200x1200q90\.jpg_\.heic$"
 URL-REGEX,"^https?+:\/\/gw\.alicdn\.com\/tfs\/.+?\d{4}-\d{4}\/[a-z]{3}$"
 # >> 淘票票
 URL-REGEX,"^https?+:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.queryadvertise\/"
-# >> 口碑
-URL-REGEX,"^https?+:\/\/render\.alipay\.com\/p\/s\/h5data\/prod\/spring-festival-2019-h5data\/popup-h5data\.json"
-URL-REGEX,"^https?+:\/\/acs\.m\.taobao\.com\/gw\/mtop\.o2o\.ad\.gateway\.get\/"
-# >> 高德地图
-URL-REGEX,"^https?+:\/\/m\d\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/"
 # >> 天猫
 URL-REGEX,"^https?+:\/\/gw\.alicdn\.com\/tfs\/TB1.+?750-\d{4}"
+# >> 闲鱼
+URL-REGEX,"^https?+:\/\/acs\.m\.taobao\.com\/gw\/mtop\.taobao\.idle\.home\.welcome\/"
 # >> 优酷
 URL-REGEX,"^https?+:\/\/.+?\.mp4\?ccode=0902"
 URL-REGEX,"^https?+:\/\/.+?\.mp4\?sid="
 URL-REGEX,"^https?+:\/\/vali\.cp31\.ott\.cibntv\.net\/youku\/.+?\.mp4\?sid="
-# > AcFun
-URL-REGEX,"^https?+:\/\/aes\.acfun\.cn\/s\?adzones"
-# > 爱回收
-URL-REGEX,"^https?+:\/\/gw\.aihuishou\.com\/app-portal\/home\/getadvertisement"
-# > 爱思助手
-URL-REGEX,"^https?+:\/\/list-app-m\.i4\.cn\/getopfstadinfo\.xhtml"
-# > APICloud
-URL-REGEX,"^https?+:\/\/a\.apicloud\.com\/start_page\/"
 
 # B
 # > 百度
