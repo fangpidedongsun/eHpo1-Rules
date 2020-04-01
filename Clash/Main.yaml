@@ -1338,6 +1338,7 @@ Rule:
   - DOMAIN,analytics.strava.com,Domestic
   - DOMAIN,download.jetbrains.com,Domestic
   - DOMAIN,images-cn.ssl-images-amazon.com,Domestic
+  - DOMAIN,cdn.angruo.com,Domestic
 
 # Global.list
 # (DNS Cache Pollution Protection)
@@ -1400,6 +1401,7 @@ Rule:
   - DOMAIN-SUFFIX,telegra.ph,Global
   - DOMAIN-SUFFIX,telegram.me,Global
   - DOMAIN-SUFFIX,telegram.org,Global
+  - DOMAIN-SUFFIX,telesco.pe,Global
   - IP-CIDR,91.108.4.0/22,Global,no-resolve
   - IP-CIDR,91.108.8.0/22,Global,no-resolve
   - IP-CIDR,91.108.12.0/22,Global,no-resolve

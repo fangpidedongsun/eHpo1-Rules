@@ -461,7 +461,7 @@ hostname = *.amemv.com, *.iydsj.com, *.k.sohu.com, *.kakamobi.cn, *.kingsoft-off
 # > 小猿搜题
 ^https?+:\/\/xyst\.yuanfudao\.com\/iphone\/splashesV\d url reject-200
 # > 新片场
-^https:\/\/app\.xinpianchang\.com\/open_screen\? url reject-200
+^https?+:\/\/app\.xinpianchang\.com\/open_screen\? url reject-200
 # > 雪球
 ^https?+:\/\/api\.xueqiu\.com\/ads\/display url reject-200
 ^https?+:\/\/(?>101\.201\.175\.228|182\.92\.251\.113)\/promotion\/(?:feed_)?+display url reject-200
@@ -549,9 +549,6 @@ hostname = *.amemv.com, *.iydsj.com, *.k.sohu.com, *.kakamobi.cn, *.kingsoft-off
 # > 中国联通
 ^https?+:\/\/m\.client\.10010\.com\/mobileService\/customer\/accountListData\.htm url reject-200
 ^https?+:\/\/m\.client\.10010\.com\/uniAdmsInterface\/getWelcomeAd url reject-200
-# > 中国电信
-# >> 电信营业厅
-^https?+\/\/image1\.chinatelecom-ec\.com\/images\/\d{4}\/\d{1,2}+\/\d{1,2}+\/client\w+?\.jpg$ url reject-200
 # > 掌阅
 ^https?+:\/\/ih2\.ireader\.com\/zyapi\/bookstore\/ad\/ url reject-200
 ^https?+:\/\/ih2\.ireader\.com\/zyapi\/self\/screen\/ad url reject-200
