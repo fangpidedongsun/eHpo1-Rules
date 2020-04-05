@@ -17,6 +17,8 @@ Maintained by <b>eHpo</b>
 
 3. Surge首页 - 打开MitM开关 - 安装证书；然后到系统设置 - 已下载描述文件 - 安装；最后系统设置 - 通用 - 关于本机 - 证书信任设置，信任刚才安装的证书
 
+另提供了一个只更新 hostname 的 [快捷指令](https://www.icloud.com/shortcuts/c048911b3eaf4d6785a2cce50b23bfdc) ，使用方法为在文件中选择您的配置文件，等操作完成再覆盖您的配置文件。
+
 更多支持请查看 [Surge官方说明](https://manual.nssurge.com)
 
 ---
@@ -39,7 +41,7 @@ https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Liby.list
 https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Tide.list
 ```
 
-### /Sub
+### Sub/
 
 分站细化规则
 

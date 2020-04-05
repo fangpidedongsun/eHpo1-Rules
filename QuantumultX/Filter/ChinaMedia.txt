@@ -1,0 +1,76 @@
+# ChinaMedia.list
+# (Video)
+# AcFun
+user-agent, AcFun*, ChinaMedia
+host-suffix, acfun.cn, ChinaMedia
+host-suffix, acfun.com, ChinaMedia
+host-suffix, aixifan.com, ChinaMedia
+# > bilibili
+user-agent, bili-universal, ChinaMedia
+user-agent, Bilibili*, ChinaMedia
+host-suffix, acgvideo.com, ChinaMedia
+host-suffix, bilibili.com, ChinaMedia
+host-suffix, hdslb.com, ChinaMedia
+# > HunanTV
+user-agent, MGTV*, ChinaMedia
+host-suffix, hitv.com, ChinaMedia
+host-suffix, hunantv.com, ChinaMedia
+host-suffix, mgtv.com, ChinaMedia
+# > Migu
+user-agent, MiguVideo*, ChinaMedia
+user-agent, %E5%92%AA%E5%92%95%E8%A7%86%E9%A2%91, ChinaMedia
+host-suffix, cmvideo.cn, ChinaMedia
+host-suffix, migu.cn, ChinaMedia
+host-suffix, miguvideo.com, ChinaMedia
+# > iQiyi
+user-agent, iQiYi*, ChinaMedia
+user-agent, PPStream*, ChinaMedia
+user-agent, QIYI*, ChinaMedia
+user-agent, QYPlayer*, ChinaMedia
+host-suffix, iqiyi.com, ChinaMedia
+host-suffix, iqiyipic.com, ChinaMedia
+host-suffix, qy.net, ChinaMedia
+host-suffix, 71.am, ChinaMedia
+# > Sohu
+host-suffix, 56.com, ChinaMedia
+host-suffix, sohu.com, ChinaMedia
+host-suffix, sohu.com.cn, ChinaMedia
+host-suffix, itc.cn, ChinaMedia
+host-suffix, v-56.com, ChinaMedia
+# > Tencent
+user-agent, live4iphone*, ChinaMedia
+user-agent, qqlive4iphone*, ChinaMedia
+user-agent, TencentMidasConnect*, ChinaMedia
+host-suffix, video.qq.com, ChinaMedia
+# > Youku
+user-agent, Youku*, ChinaMedia
+user-agent, %E4%BC%98%E9%85%B7*, ChinaMedia
+host-suffix, soku.com, ChinaMedia
+host-suffix, youku.com, ChinaMedia
+host-suffix, ykimg.com, ChinaMedia
+
+# (Music)
+# > Alibaba
+user-agent, walkman*, ChinaMedia
+user-agent, xiami*, ChinaMedia
+host-suffix, xiami.com, ChinaMedia
+host-suffix, xiami.net, ChinaMedia
+# > Netease
+user-agent, NeteaseMusic*, ChinaMedia
+user-agent, %E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*, ChinaMedia
+host-suffix, music.126.net, ChinaMedia
+host-suffix, music.163.com, ChinaMedia
+# > Tencent
+user-agent, MOO%E9%9F%B3%E4%B9%90*, ChinaMedia
+user-agent, QQ%E9%9F%B3%E4%B9%90, ChinaMedia
+host-suffix, qqmusic.qq.com, ChinaMedia
+host-suffix, y.qq.com, ChinaMedia
+host, aqqmusic.tc.qq.com, ChinaMedia
+# Kugou and Kuwo
+host-suffix, kugou.com, ChinaMedia
+user-agent, %E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90*, ChinaMedia
+host-suffix, kuwo.cn, ChinaMedia
+host-suffix, koowo.com, ChinaMedia
+# > Baidu
+user-agent, baiduyinyue, ChinaMedia
+host-suffix, qianqian.com, ChinaMedia

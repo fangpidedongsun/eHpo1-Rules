@@ -370,6 +370,7 @@ host-suffix, sspai.com, Domestic
 host-suffix, takungpao.com, Domestic
 host-suffix, teamviewer.com, Domestic
 host-suffix, tianyancha.com, Domestic
+host-suffix, tophub.today, Domestic
 host-suffix, udacity.com, Domestic
 host-suffix, uning.com, Domestic
 host-suffix, vmware.com, Domestic

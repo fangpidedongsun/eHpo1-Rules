@@ -402,7 +402,7 @@ URL-REGEX,"^https?+:\/\/client\.mail\.163\.com\/apptrack\/confinfo\/searchMultiA
 # >> 网易云音乐
 URL-REGEX,"^https?+:\/\/.+?\/eapi\/(?>ad|log)\/"
 # >> 网易考拉
-URL-REGEX,"^https?+:\/\/sp\.kaola\.com\/api\/openad"
+URL-REGEX,"^https?+:\/\/kaola-haitao\.oss\.kaolacdn.com\/.+?_\d{3,4}+_\d{4}\.jpg\?x-oss-process=image\/resize,m_mfit,w_\d{3,4}+,h_\d{4}\/format,webp\/quality,Q_85"
 # >> 网易严选
 URL-REGEX,"^https?+:\/\/support\.you\.163\.com\/xhr\/boot\/getBootMedia\.json"
 # >> 网易蜗牛读书
@@ -486,6 +486,8 @@ URL-REGEX,"^https?+:\/\/images\.client\.vip\.xunlei\.com\/.+?\/advert\/"
 URL-REGEX,"^https?+:\/\/imeclient\.openspeech\.cn\/adservice\/"
 
 # Z
+# > 转转
+URL-REGEX,"^https?+:\/\/app\.zhuanzhuan\.com\/zzx\/transfer\/getConfigInfo$"
 # > 直播吧
 URL-REGEX,"^https?+:\/\/a\.qiumibao\.com\/activities\/config\.php"
 URL-REGEX,"^https?+:\/\/.+?\/allOne\.php\?ad_name"
