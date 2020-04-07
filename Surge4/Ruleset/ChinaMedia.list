@@ -6,11 +6,21 @@ DOMAIN-SUFFIX,acfun.cn
 DOMAIN-SUFFIX,acfun.com
 DOMAIN-SUFFIX,aixifan.com
 # > bilibili
-USER-AGENT,bili-universal
-USER-AGENT,Bilibili*
+DOMAIN-KEYWORD,bilibili
+DOMAIN-SUFFIX,acg.tv
 DOMAIN-SUFFIX,acgvideo.com
+DOMAIN-SUFFIX,b23.tv
+DOMAIN-SUFFIX,biliapi.com
+DOMAIN-SUFFIX,biliapi.net
 DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,bilibili.tv
+DOMAIN-SUFFIX,biligame.com
+DOMAIN-SUFFIX,biligame.net
+DOMAIN-SUFFIX,bilivideo.com
 DOMAIN-SUFFIX,hdslb.com
+DOMAIN-SUFFIX,im9.com
+DOMAIN,upos-hz-mirrorakam.akamaized.net
+USER-AGENT,*bili*
 # > HunanTV
 USER-AGENT,MGTV*
 DOMAIN-SUFFIX,hitv.com
@@ -23,14 +33,16 @@ DOMAIN-SUFFIX,cmvideo.cn
 DOMAIN-SUFFIX,migu.cn
 DOMAIN-SUFFIX,miguvideo.com
 # > iQiyi
+DOMAIN-KEYWORD,qiyi
+DOMAIN-SUFFIX,71.am.com
+DOMAIN-SUFFIX,qy.net
+IP-CIDR,101.224.0.0/13,no-resolve
+IP-CIDR,101.227.0.0/16,no-resolve
+IP-CIDR,119.176.0.0/12,no-resolve
 USER-AGENT,iQiYi*
 USER-AGENT,PPStream*
 USER-AGENT,QIYI*
 USER-AGENT,QYPlayer*
-DOMAIN-SUFFIX,iqiyi.com
-DOMAIN-SUFFIX,iqiyipic.com
-DOMAIN-SUFFIX,qy.net
-DOMAIN-SUFFIX,71.am
 # > Sohu
 DOMAIN-SUFFIX,56.com
 DOMAIN-SUFFIX,sohu.com

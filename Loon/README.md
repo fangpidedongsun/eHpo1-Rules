@@ -16,10 +16,12 @@ Maintained by <b>eHpo</b>
 2. 继续编辑，将配置文本`[Remote Proxy]`中的`https://www.example.com/example1.txt`替换为您的订阅链接
    > ![Loon编辑](/.image/loonbj.jpg)
 
-3. 将配置文本`[Remote Filter]`中的四个`关键词`（各两处）替换为您所需的
+3. 将配置文本`[Remote Filter]`中的两个`关键词`（各两处）替换为您所需的
    > ![Loon筛选](/.image/loonsx.jpg)
 
 4. 打开Loon的MITM开关 - 证书管理 - 安装CA证书；然后到系统设置 - 已下载描述文件 - 安装；最后系统设置 - 通用 - 关于本机 - 证书信任设置，信任刚才安装的证书
+
+另提供了一个只更新 hostname 的 [快捷指令](https://www.icloud.com/shortcuts/f9fa9324aec34011825c4ec6006bec00) ，使用方法为在配置中选择导出到 `Loon hostname 更新` ，然后等待快捷指令操作完成。
 
 > 更多支持请查看 [Loon官方说明](https://github.com/Loon0x00/LoonManual)
 
@@ -29,7 +31,7 @@ Maintained by <b>eHpo</b>
 
 ### Liby.list
 
-通过域名 / IP去广告
+通过域名、IP去广告
 
 ```
 https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Liby.list
@@ -49,7 +51,7 @@ https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Tide.list
 
 <https://github.com/eHpo1/Rules/tree/master/Surge4/Ruleset/Sub>
 
-### Apple_CDN.list / Apple_API.list
+### Apple_CDN.list、Apple_API.list
 
 > [苹果服务的连接策略推荐](https://blog.dada.li/2019/better-proxy-rules-for-apple-services) @geekdada
 
@@ -67,18 +69,18 @@ API 服务类  推荐选择账号所在区
 https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Apple_API.list
 ```
 
-### AsianMedia.list / GlobalMedia.list
+### AsianMedia.list、GlobalMedia.list
 
-亚洲媒体 / 国际媒体
+亚洲媒体、国际媒体
 
 ```
 https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/AsianMedia.list
 https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/GlobalMedia.list
 ```
 
-### Domestic.list / Global.list
+### Domestic.list、Global.list
 
-国内 / 国际常用网页
+国内、国际常用网页
 
 ```
 https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Domestic.list
@@ -87,10 +89,18 @@ https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Global.list
 
 ### Region.list
 
-用于修正规则，包含 LAN / GeoIP,CN
+用于修正规则，包含 LAN、GeoIP,CN
 
 ```
 https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Region.list
+```
+
+### ChinaMedia.list
+
+回国专用list，回国规则暂无模板，只有一个面向大陆媒体的list
+
+```
+https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/ChinaMedia.list
 ```
 
 ---

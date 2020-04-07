@@ -337,7 +337,6 @@ host, sdkauth.hpplay.cn, AdBlock
 # (0~9)
 # (A)
 # > Alibaba
-host, amdc.m.taobao.com, AdBlock
 host, optimus-ads.amap.com, AdBlock
 host, optimus-ads.amap.com.w.alikunlun.com, AdBlock
 host, tunion-api.m.taobao.com, AdBlock

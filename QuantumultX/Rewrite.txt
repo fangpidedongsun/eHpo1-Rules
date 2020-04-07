@@ -16,6 +16,11 @@ hostname = *.amemv.com, *.iydsj.com, *.k.sohu.com, *.kakamobi.cn, *.kingsoft-off
 ^http:\/\/www\.google\.cn url 302 https://www.google.com
 
 
+# script
+# 阿里
+^https?+:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimama\.etao\.config\.query\/ url response-body "ems_etao_advertise" response-body ""
+
+
 # Tide.list
 # Strong Stain Removal
 # 0~9
@@ -31,11 +36,10 @@ hostname = *.amemv.com, *.iydsj.com, *.k.sohu.com, *.kakamobi.cn, *.kingsoft-off
 
 # A
 # > 阿里
+^https?+:\/\/amdc\.m\.taobao\.com\/amdc\/mobileDispatch url reject-200
 ^https?+:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.tmall\.wireless url reject-200
 # >> 1688
 ^https?+:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv url reject-200
-# >> 阿里妈妈
-^https?+:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimama\.etao\.config\.query url reject-200
 # >> 闲鱼
 ^https?+:\/\/acs\.m\.taobao\.com\/gw\/mtop\.taobao\.idle\.home\.welcome\/ url reject-200
 # >> 飞猪
@@ -184,7 +188,7 @@ hostname = *.amemv.com, *.iydsj.com, *.k.sohu.com, *.kakamobi.cn, *.kingsoft-off
 # > 杭州市·市民卡
 ^https?+:\/\/smkmp\.96225\.com\/smkcenter\/ad\/ url reject-200
 # > 虎扑
-^https?+:\/\/games\.mobileapi\.hupu\.com\/.+?\/interfaceAd(?:Monitor)?+\/ url reject-200
+^https?+:\/\/games\.mobileapi\.hupu\.com\/\d\/(?:\d\.){2}\d\/status\/init url reject-200
 # > 虎牙
 ^https?+:\/\/business\.msstatic\.com\/advertiser\/ url reject-200
 ^https?+:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/resource url reject-200
@@ -323,8 +327,6 @@ hostname = *.amemv.com, *.iydsj.com, *.k.sohu.com, *.kakamobi.cn, *.kingsoft-off
 ^https?+:\/\/msspjh\.emarbox\.com\/getAdConfig url reject-200
 ^https?+:\/\/api\.videozhishi\.com\/api\/getAdvertising url reject-200
 ^https?+:\/\/api\.rr\.tv\/ad\/ url reject-200
-# > 人人影视
-^https?+:\/\/ctrl\.(?>playcvn|zmzapi)\.(?>com|net)\/app\/(?>ads|init) url reject-200
 # > 日日煮
 ^https?+:\/\/api\.daydaycook\.com\.cn\/daydaycook\/server\/ad\/ url reject-200
 ^https?+:\/\/cms\.daydaycook\.com\.cn\/api\/cms\/advertisement\/ url reject-200

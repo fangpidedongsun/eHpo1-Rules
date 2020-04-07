@@ -29,9 +29,9 @@ dns:
     - 119.29.29.29
     - 223.5.5.5
   fallback:
-    - https://dns.google/dns-query
-    - https://cloudflare-dns.com/dns-query
+    - https://dns.alidns.com/dns-query
     - https://dns.rubyfish.cn/dns-query
+    - https://cloudflare-dns.com/dns-query
   fallback-filter:
     geoip: true
     ipcidr:
@@ -57,8 +57,6 @@ Proxy Group:
       - Proxy1
       - Proxy2
       - Proxy3
-      - Proxy4
-      - Proxy5
       - DIRECT
   - name: "Domestic"
     type: select
@@ -79,8 +77,6 @@ Proxy Group:
       - Proxy1
       - Proxy2
       - Proxy3
-      - Proxy4
-      - Proxy5
   - name: "Apple_CDN"
     type: select
     proxies:
@@ -94,8 +90,6 @@ Proxy Group:
       - Proxy1
       - Proxy2
       - Proxy3
-      - Proxy4
-      - Proxy5
   - name: "GlobalMedia"
     type: select
     proxies:
@@ -104,8 +98,6 @@ Proxy Group:
       - Proxy1
       - Proxy2
       - Proxy3
-      - Proxy4
-      - Proxy5
   - name: "Proxy1"
     type: select
     proxies:
@@ -115,14 +107,6 @@ Proxy Group:
     proxies:
       - 1
   - name: "Proxy3"
-    type: select
-    proxies:
-      - 1
-  - name: "Proxy4"
-    type: select
-    proxies:
-      - 1
-  - name: "Proxy5"
     type: select
     proxies:
       - 1
@@ -468,7 +452,6 @@ Rule:
 # (0~9)
 # (A)
 # > Alibaba
-  - DOMAIN,amdc.m.taobao.com,AdBlock
   - DOMAIN,optimus-ads.amap.com,AdBlock
   - DOMAIN,optimus-ads.amap.com.w.alikunlun.com,AdBlock
   - DOMAIN,tunion-api.m.taobao.com,AdBlock
@@ -714,6 +697,10 @@ Rule:
   - DOMAIN,app-advertise.zhihuishu.com,AdBlock
 
 # Apple_CDN.list
+# Apple Music
+  - DOMAIN,aod.itunes.apple.com,Apple_CDN
+  - DOMAIN,api.smoot.apple.cn,Apple_CDN
+  - DOMAIN,mvod.itunes.apple.com,Apple_CDN
 # > App Store
   - DOMAIN-SUFFIX,mzstatic.com,Apple_CDN
   - DOMAIN,iosapps.itunes.apple.com,Apple_CDN
@@ -767,8 +754,8 @@ Rule:
   - DOMAIN-KEYWORD,qiyi,AsianMedia
   - DOMAIN-SUFFIX,71.am.com,AsianMedia
   - DOMAIN-SUFFIX,qy.net,AsianMedia
-  - IP-CIDR,101.227.0.0/16,AsianMedia,no-resolve
   - IP-CIDR,101.224.0.0/13,AsianMedia,no-resolve
+  - IP-CIDR,101.227.0.0/16,AsianMedia,no-resolve
   - IP-CIDR,119.176.0.0/12,AsianMedia,no-resolve
 # > letv
   - DOMAIN-SUFFIX,api.mob.app.letv.com,AsianMedia
@@ -1402,10 +1389,12 @@ Rule:
   - DOMAIN-SUFFIX,telegram.org,Global
   - DOMAIN-SUFFIX,telesco.pe,Global
   - IP-CIDR,91.108.4.0/22,Global,no-resolve
-  - IP-CIDR,91.108.8.0/22,Global,no-resolve
-  - IP-CIDR,91.108.12.0/22,Global,no-resolve
-  - IP-CIDR,91.108.16.0/22,Global,no-resolve
+  - IP-CIDR,91.108.8.0/21,Global,no-resolve
+  - IP-CIDR,91.108.16.0/21,Global,no-resolve
+  - IP-CIDR,91.108.56.0/23,Global,no-resolve
   - IP-CIDR,91.108.56.0/22,Global,no-resolve
+  - IP-CIDR,95.161.64.0/20,Global,no-resolve
+  - IP-CIDR,109.239.140.0/24,Global,no-resolve
   - IP-CIDR,149.154.160.0/20,Global,no-resolve
 # > Line
   - DOMAIN-SUFFIX,line.me,Global

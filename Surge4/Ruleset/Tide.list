@@ -21,11 +21,10 @@ URL-REGEX,"^https?+:\/\/gw\.aihuishou\.com\/app-portal\/home\/getadvertisement"
 # > 爱思助手
 URL-REGEX,"^https?+:\/\/list-app-m\.i4\.cn\/getopfstadinfo\.xhtml"
 # > 阿里
+URL-REGEX,"^https?+:\/\/amdc\.m\.taobao\.com\/amdc\/mobileDispatch"
 URL-REGEX,"^https?+:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.tmall\.wireless"
 # >> 1688
 URL-REGEX,"^https?+:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv"
-# >> 阿里妈妈
-URL-REGEX,"^https?+:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimama\.etao\.config\.query"
 # >> 飞猪
 URL-REGEX,"^https?+:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsresources\/"
 # >> 高德地图
@@ -169,7 +168,7 @@ URL-REGEX,"^https?+:\/\/m\.ibuscloud\.com\/v2\/app\/getStartPage"
 # > 杭州市·市民卡
 URL-REGEX,"^https?+:\/\/smkmp\.96225\.com\/smkcenter\/ad\/"
 # > 虎扑
-URL-REGEX,"^https?+:\/\/games\.mobileapi\.hupu\.com\/.+?\/interfaceAd(?:Monitor)?+\/"
+URL-REGEX,"^https?+:\/\/games\.mobileapi\.hupu\.com\/\d\/(?:\d\.){2}\d\/status\/init"
 # > 虎牙
 URL-REGEX,"^https?+:\/\/business\.msstatic\.com\/advertiser\/"
 URL-REGEX,"^https?+:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/resource"
@@ -308,8 +307,6 @@ URL-REGEX,"^https?+:\/\/api\.qbb6\.com\/ad\/"
 URL-REGEX,"^https?+:\/\/msspjh\.emarbox\.com\/getAdConfig"
 URL-REGEX,"^https?+:\/\/api\.videozhishi\.com\/api\/getAdvertising"
 URL-REGEX,"^https?+:\/\/api\.rr\.tv\/ad\/"
-# > 人人影视
-URL-REGEX,"^https?+:\/\/ctrl\.(?>playcvn|zmzapi)\.(?>com|net)\/app\/(?>ads|init)"
 # > 日日煮
 URL-REGEX,"^https?+:\/\/api\.daydaycook\.com\.cn\/daydaycook\/server\/ad\/"
 URL-REGEX,"^https?+:\/\/cms\.daydaycook\.com\.cn\/api\/cms\/advertisement\/"

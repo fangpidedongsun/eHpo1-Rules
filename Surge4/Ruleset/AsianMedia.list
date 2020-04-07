@@ -1,6 +1,5 @@
 # AsianMedia.list
 # > Bilibili
-USER-AGENT,*bili*
 DOMAIN-KEYWORD,bilibili
 DOMAIN-SUFFIX,acg.tv
 DOMAIN-SUFFIX,acgvideo.com
@@ -15,15 +14,16 @@ DOMAIN-SUFFIX,bilivideo.com
 DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,im9.com
 DOMAIN,upos-hz-mirrorakam.akamaized.net
+USER-AGENT,*bili*
 # > IQIYI
-USER-AGENT,QIYI*
-USER-AGENT,iQiYi*
 DOMAIN-KEYWORD,qiyi
 DOMAIN-SUFFIX,71.am.com
 DOMAIN-SUFFIX,qy.net
-IP-CIDR,101.227.0.0/16,no-resolve
 IP-CIDR,101.224.0.0/13,no-resolve
+IP-CIDR,101.227.0.0/16,no-resolve
 IP-CIDR,119.176.0.0/12,no-resolve
+USER-AGENT,iQiYi*
+USER-AGENT,QIYI*
 # > letv
 DOMAIN-SUFFIX,api.mob.app.letv.com
 # > MOO

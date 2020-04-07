@@ -11,13 +11,13 @@ Maintained by <b>eHpo</b>
 
 1. 开启Surge配置同步 - iCloud同步
 
-2. 通过iOS [快捷指令](https://www.icloud.com/shortcuts/6130b2e96e2c4b4280f1015ca47dd724) 转换托管链接（筛选4个名称关键词），生成的六个文件全部保存在iCloud的Surge目录下。
+2. 通过iOS [快捷指令](https://www.icloud.com/shortcuts/9042a9dd0a3348fa93b6e382959f1ae8) 转换托管链接（筛选2个名称关键词），生成的4个文件全部保存在iCloud的Surge目录下。
 
 	> ![Surge快捷指令](/.image/surgekjzl.jpg)
 
 3. Surge首页 - 打开MitM开关 - 安装证书；然后到系统设置 - 已下载描述文件 - 安装；最后系统设置 - 通用 - 关于本机 - 证书信任设置，信任刚才安装的证书
 
-另提供了一个只更新 hostname 的 [快捷指令](https://www.icloud.com/shortcuts/c048911b3eaf4d6785a2cce50b23bfdc) ，使用方法为在文件中选择您的配置文件，等操作完成再覆盖您的配置文件。
+另提供了一个只更新 hostname 的 [快捷指令](https://www.icloud.com/shortcuts/c0648ce2d3b8428db028de95383666cb) ，使用方法为在配置列表中选择分享到 `Surge hostname 更新` ，然后等待快捷指令操作完成。
 
 更多支持请查看 [Surge官方说明](https://manual.nssurge.com)
 
@@ -27,7 +27,7 @@ Maintained by <b>eHpo</b>
 
 ### Liby.list
 
-通过域名 / IP去广告
+通过域名、IP去广告
 
 ```
 https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Liby.list
@@ -47,7 +47,7 @@ https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Tide.list
 
 <https://github.com/eHpo1/Rules/tree/master/Surge4/Ruleset/Sub>
 
-### Apple_CDN.list / Apple_API.list
+### Apple_CDN.list、Apple_API.list
 
 > [苹果服务的连接策略推荐](https://blog.dada.li/2019/better-proxy-rules-for-apple-services) @geekdada
 
@@ -65,18 +65,18 @@ API 服务类  推荐选择账号所在区
 https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Apple_API.list
 ```
 
-### AsianMedia.list / GlobalMedia.list
+### AsianMedia.list、GlobalMedia.list
 
-亚洲媒体 / 国际媒体
+亚洲媒体、国际媒体
 
 ```
 https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/AsianMedia.list
 https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/GlobalMedia.list
 ```
 
-### Domestic.list / Global.list
+### Domestic.list、Global.list
 
-国内 / 国际常用网页
+国内、国际常用网页
 
 ```
 https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Domestic.list
@@ -85,11 +85,20 @@ https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Global.list
 
 ### Region.list
 
-用于修正规则，包含 LAN / GeoIP,CN
+用于修正规则，包含 LAN、GeoIP,CN
 
 ```
 https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Region.list
 ```
+
+### ChinaMedia.list
+
+回国专用list，回国规则暂无模板，只有一个面向大陆媒体的list
+
+```
+https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/ChinaMedia.list
+```
+
 ---
 
 <h3 align="center">

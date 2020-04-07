@@ -29,9 +29,9 @@ dns:
     - 119.29.29.29
     - 223.5.5.5
   fallback:
-    - https://dns.google/dns-query
-    - https://cloudflare-dns.com/dns-query
+    - https://dns.alidns.com/dns-query
     - https://dns.rubyfish.cn/dns-query
+    - https://cloudflare-dns.com/dns-query
   fallback-filter:
     geoip: true
     ipcidr:
@@ -48,8 +48,6 @@ Proxy Group:
       - Proxy1
       - Proxy2
       - Proxy3
-      - Proxy4
-      - Proxy5
       - DIRECT
   - name: "Domestic"
     type: select
@@ -70,8 +68,6 @@ Proxy Group:
       - Proxy1
       - Proxy2
       - Proxy3
-      - Proxy4
-      - Proxy5
   - name: "Apple_CDN"
     type: select
     proxies:
@@ -85,8 +81,6 @@ Proxy Group:
       - Proxy1
       - Proxy2
       - Proxy3
-      - Proxy4
-      - Proxy5
   - name: "GlobalMedia"
     type: select
     proxies:
@@ -95,8 +89,6 @@ Proxy Group:
       - Proxy1
       - Proxy2
       - Proxy3
-      - Proxy4
-      - Proxy5
   - name: "Proxy1"
     type: select
     proxies:
@@ -106,14 +98,6 @@ Proxy Group:
     proxies:
       - 移除这个
   - name: "Proxy3"
-    type: select
-    proxies:
-      - 移除这个
-  - name: "Proxy4"
-    type: select
-    proxies:
-      - 移除这个
-  - name: "Proxy5"
     type: select
     proxies:
       - 移除这个

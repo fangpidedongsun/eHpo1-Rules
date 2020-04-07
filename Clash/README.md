@@ -11,7 +11,7 @@ Maintained by <b>eHpo</b>
 
 ### Windows
 
-使用 CFW作者 [Fndroid](https://github.com/Fndroid) 的 [Clash Config Builder](https://github.com/Fndroid/clash-config-builder/blob/master/README.md) Remote Mode  
+使用 CfW作者 [Fndroid](https://github.com/Fndroid) 的 [Clash Config Builder](https://github.com/Fndroid/clash-config-builder/blob/master/README.md) Remote Mode  
 配置文件：  
 <https://raw.githubusercontent.com/eHpo1/Rules/master/Clash/Win.yaml>
 
@@ -23,9 +23,9 @@ Maintained by <b>eHpo</b>
 
 ### Liby.list
 
-通过域名 / IP去广告
+通过域名、IP去广告
 
-### Apple_API.list / Apple_CDN.list
+### Apple_API.list、Apple_CDN.list
 
 > [苹果服务的连接策略推荐](https://blog.dada.li/2019/better-proxy-rules-for-apple-services) @geekdada
 
@@ -35,17 +35,17 @@ App 实体文件、Apple Music 音乐文件
 API 服务类  推荐选择账号所在区  
 购买、发起下载、iCloud 同步（含上传和下载）、Siri
 
-### AsianMedia.list / GlobalMedia.list
+### AsianMedia.list、GlobalMedia.list
 
-亚洲媒体 / 国际媒体
+亚洲媒体、国际媒体
 
-### Domestic.list / Global.list
+### Domestic.list、Global.list
 
-国内 / 国际常用网页
+国内、国际常用网页
 
 ### Region.list
 
-用于修正规则，包含 LAN / GeoIP,CN
+用于修正规则，包含 LAN、GeoIP,CN
 
 ---
 

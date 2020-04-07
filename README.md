@@ -19,11 +19,11 @@ Maintained by <b>eHpo</b>
     * Shadowrocket
     * Surge4
 * [List 顺序、说明](#list-顺序说明)
-    * Liby / Tide
-    * /Sub
-    * Apple_API / Apple_CDN
-    * AsianMedia / GlobalMedia
-    * Domestic / Global
+    * Liby、Tide
+    * Sub/
+    * Apple_API、Apple_CDN
+    * AsianMedia、GlobalMedia
+    * Domestic、Global
     * Region
 * [常见问题](#qa)
 * [关于](#关于)
@@ -50,7 +50,7 @@ Maintained by <b>eHpo</b>
 
 ### Liby.list
 
-通过域名 / IP去广告
+通过域名、IP去广告
 
 ### Tide.list
 
@@ -60,7 +60,7 @@ Maintained by <b>eHpo</b>
 
 分站细化规则
 
-### Apple_CDN / Apple_API
+### Apple_CDN、Apple_API
 
 > [苹果服务的连接策略推荐](https://blog.dada.li/2019/better-proxy-rules-for-apple-services) @geekdada
 
@@ -70,17 +70,21 @@ App 实体文件、Apple Music 音乐文件
 API 服务类  推荐选择账号所在区  
 购买、发起下载、iCloud 同步（含上传和下载）、Siri
 
-### AsianMedia.list / GlobalMedia.list
+### AsianMedia.list、GlobalMedia.list
 
-亚洲媒体 / 国际媒体
+亚洲媒体、国际媒体
 
-### Domestic.list / Global.list
+### Domestic.list、Global.list
 
-国内 / 国际常用网页
+国内、国际常用网页
 
 ### Region.list
 
-用于修正规则，包含 LAN / GeoIP,CN
+用于修正规则，包含 LAN、GeoIP,CN
+
+### ChinaMedia.list
+
+回国专用list，回国规则暂无模板，只有一个面向大陆媒体的list
 
 ---
 

@@ -29,7 +29,7 @@ Maintained by <b>eHpo</b>
 
 ### Liby.list
 
-通过域名 / IP去广告
+通过域名、IP去广告
 
 ```
 https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Filter/Liby.txt
@@ -41,7 +41,7 @@ https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Filter/Liby.txt
 
 <https://github.com/eHpo1/Rules/tree/master/QuantumultX/Filter/Sub>
 
-### Apple_CDN.list / Apple_API.list
+### Apple_CDN.list、Apple_API.list
 
 > [苹果服务的连接策略推荐](https://blog.dada.li/2019/better-proxy-rules-for-apple-services) @geekdada
 
@@ -59,18 +59,18 @@ API 服务类  推荐选择账号所在区
 https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Filter/Apple_API.txt
 ```
 
-### AsianMedia.list / GlobalMedia.list
+### AsianMedia.list、GlobalMedia.list
 
-亚洲媒体 / 国际媒体
+亚洲媒体、国际媒体
 
 ```
 https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Filter/AsianMedia.txt
 https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Filter/GlobalMedia.txt
 ```
 
-### Domestic.list / Global.list
+### Domestic.list、Global.list
 
-国内 / 国际常用网页
+国内、国际常用网页
 
 ```
 https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Filter/Domestic.txt
@@ -79,7 +79,7 @@ https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Filter/Global.t
 
 ### Region.list
 
-用于修正规则，包含 LAN / GeoIP,CN
+用于修正规则，包含 LAN、GeoIP,CN
 
 ```
 https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Filter/Region.txt
@@ -91,6 +91,14 @@ URL重写（包含 Tide.list）
 
 ```
 https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Rewrite.txt
+```
+
+### ChinaMedia.txt
+
+回国专用list，回国规则暂无模板，只有一个面向大陆媒体的list
+
+```
+https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Filter/ChinaMedia.txt
 ```
 
 ---
