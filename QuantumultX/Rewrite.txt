@@ -18,6 +18,7 @@ hostname = *.amemv.com, *.iydsj.com, *.k.sohu.com, *.kakamobi.cn, *.kingsoft-off
 
 # script
 # 阿里
+^https?+:\/\/amdc\.m\.taobao\.com\/amdc\/mobileDispatch url request-body &domain=.+?& request-body &
 ^https?+:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimama\.etao\.config\.query\/ url response-body "ems_etao_advertise" response-body ""
 
 

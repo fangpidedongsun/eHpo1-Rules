@@ -29,7 +29,7 @@ dns:
     - 119.29.29.29
     - 223.5.5.5
   fallback:
-    - https://dns.alidns.com/dns-query
+    - https://dns.adguard.com/dns-query
     - https://dns.rubyfish.cn/dns-query
     - https://cloudflare-dns.com/dns-query
   fallback-filter:
