@@ -2,6 +2,7 @@
 # Apple Music
 host, aod.itunes.apple.com, Apple_CDN
 host, api.smoot.apple.cn, Apple_CDN
+host, music.apple.com, Apple_CDN
 host, mvod.itunes.apple.com, Apple_CDN
 # > App Store
 user-agent, com.apple.appstored*, Apple_CDN

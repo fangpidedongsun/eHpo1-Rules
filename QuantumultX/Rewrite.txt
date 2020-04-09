@@ -37,12 +37,9 @@ hostname = *.amemv.com, *.iydsj.com, *.k.sohu.com, *.kakamobi.cn, *.kingsoft-off
 
 # A
 # > 阿里
-^https?+:\/\/amdc\.m\.taobao\.com\/amdc\/mobileDispatch url reject-200
 ^https?+:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.tmall\.wireless url reject-200
 # >> 1688
 ^https?+:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv url reject-200
-# >> 闲鱼
-^https?+:\/\/acs\.m\.taobao\.com\/gw\/mtop\.taobao\.idle\.home\.welcome\/ url reject-200
 # >> 飞猪
 ^https?+:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsresources\/ url reject-200
 # >> 淘宝
@@ -366,6 +363,8 @@ hostname = *.amemv.com, *.iydsj.com, *.k.sohu.com, *.kakamobi.cn, *.kingsoft-off
 # > 腾讯
 # >> 富途牛牛
 ^https?+:\/\/api\d\.futunn\.com\/ad\/ url reject-200
+# >> 全民K歌
+^https?+:\/\/y\.gtimg\.cn\/music\/common\/\/upload\/kg_ad\/.+?\d{3,4}+x\d{4} url reject-200
 # >> 腾讯游戏
 ^https?+:\/\/ssl\.kohsocialapp\.qq\.com:10001\/game\/buttons url reject-200
 ^https?+:\/\/qt\.qq\.com\/lua\/mengyou\/get_splash_screen_info url reject-200
@@ -380,7 +379,7 @@ hostname = *.amemv.com, *.iydsj.com, *.k.sohu.com, *.kakamobi.cn, *.kingsoft-off
 ^https?+:\/\/r\.inews\.qq\.com\/(?>adsBlacklist|getFullScreenPic|getQQNewsRemoteConfig) url reject-200
 # >> 腾讯体育
 ^https?+:\/\/news\.ssp\.qq\.com\/app url reject-200
-# JOOX
+# >> JOOX
 ^https?+:\/\/203\.205\.255\.16\/retrieval\/getAd url reject-200
 ^https?+:\/\/hk\.app\.joox\.com\/billsrv\/clientBatchAdReport url reject-200
 ^https?+:\/\/hk\.app\.joox\.com\/retrieval\/getAd url reject-200
