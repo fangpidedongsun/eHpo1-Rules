@@ -9,3 +9,5 @@ host-suffix, icloud.com, Apple_API
 host-suffix, icloud-content.com, Apple_API
 host-suffix, itunes.com, Apple_API
 host-suffix, me.com, Apple_API
+# Apple News
+host-suffix, apple.news, Apple_API

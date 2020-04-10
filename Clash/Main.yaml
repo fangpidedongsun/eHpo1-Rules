@@ -712,6 +712,9 @@ Rule:
   - DOMAIN,swcdn.apple.com,Apple_CDN
   - DOMAIN,apptrailers.itunes.apple.com,Apple_CDN
   - DOMAIN,updates-http.cdn-apple.com,Apple_CDN
+# > Map
+  - DOMAIN-SUFFIX,ls.apple.com,Apple_CDN
+  - DOMAIN,gs-loc-cn.apple.com,Apple_CDN
 
 # Apple_API.list
   - DOMAIN-SUFFIX,aaplimg.com,Apple_API
@@ -734,6 +737,8 @@ Rule:
   - IP-CIDR,192.35.50.0/24,Apple_API,no-resolve
   - IP-CIDR,198.183.17.0/24,Apple_API,no-resolve
   - IP-CIDR,205.180.175.0/24,Apple_API,no-resolve
+# Apple News
+  - DOMAIN-SUFFIX,apple.news,Apple_API
 
 # AsianMedia.list
 # > Bilibili

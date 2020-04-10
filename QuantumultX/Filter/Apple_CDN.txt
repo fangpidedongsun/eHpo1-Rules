@@ -15,3 +15,6 @@ host, appldnld.apple.com, Apple_CDN
 host, swcdn.apple.com, Apple_CDN
 host, apptrailers.itunes.apple.com, Apple_CDN
 host, updates-http.cdn-apple.com, Apple_CDN
+# > Map
+host-suffix, ls.apple.com, Apple_CDN
+host, gs-loc-cn.apple.com, Apple_CDN
