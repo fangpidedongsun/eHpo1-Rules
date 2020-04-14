@@ -66,6 +66,7 @@ app.zhuanzhuan.com
 appapi.huazhu.com
 app-api.smzdm.com
 appconf.mail.163.com
+appv6.55haitao.com
 b.zhuishushenqi.com
 business-cdn.shouji.sogou.com
 c.m.163.com

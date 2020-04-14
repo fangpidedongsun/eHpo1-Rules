@@ -3,6 +3,8 @@
 # 0~9
 # > 21经济
 URL-REGEX,"^https?+:\/\/api\.21jingji\.com\/ad\/"
+# > 55海淘
+URL-REGEX,"^https?+:\/\/appv6\.55haitao\.com\/IflyAd\/getAd"
 # > 58同城
 URL-REGEX,"^https?+:\/\/.+?\.58cdn\.com\.cn\/brandads\/"
 URL-REGEX,"^https?+:\/\/app\.58\.com\/api\/home\/a(?>dvertising|ppadv)\/"
@@ -213,6 +215,8 @@ URL-REGEX,"^https?+:\/\/service\.iciba\.com\/popo\/open\/screens\/v\d\?adjson"
 # > Keep
 URL-REGEX,"^https?+:\/\/api\.gotokeep\.com\/ads"
 URL-REGEX,"^https?+:\/\/static1\.keepcdn\.com\/.+?\d{3}x\d{4}"
+# > 快递100
+URL-REGEX,"^https?+:\/\/p\.kuaidi100\.com\/mobile\/mobileapi\.do"
 # > 快看漫画
 URL-REGEX,"^https?+:\/\/api\.kkmh\.com\/.+?ad(?:vertisement)?+\/"
 # > 酷我
