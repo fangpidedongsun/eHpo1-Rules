@@ -155,6 +155,7 @@ host-suffix, igamecj.com, Domestic
 host-suffix, myapp.com, Domestic
 host-suffix, myqcloud.com, Domestic
 host-suffix, qq.com, Domestic
+host-suffix, qqmail.com, Domestic
 host-suffix, servicewechat.com, Domestic
 host-suffix, tencent.com, Domestic
 host-suffix, tencent-cloud.net, Domestic
@@ -373,6 +374,7 @@ host-suffix, tianyancha.com, Domestic
 host-suffix, tophub.today, Domestic
 host-suffix, udacity.com, Domestic
 host-suffix, uning.com, Domestic
+host-suffix, unity3d.com, Domestic
 host-suffix, vmware.com, Domestic
 host-suffix, weather.com, Domestic
 host-suffix, weico.cc, Domestic

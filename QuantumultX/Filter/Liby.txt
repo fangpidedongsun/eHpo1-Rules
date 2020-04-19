@@ -286,7 +286,6 @@ host-suffix, smartadserver.com, AdBlock
 host-suffix, smartnews-ads.com, AdBlock
 host-suffix, supersonic.com, AdBlock
 host-suffix, supersonicads.com, AdBlock
-host-suffix, tagtic.cn, AdBlock
 host-suffix, tanv.com, AdBlock
 host-suffix, tanx.com, AdBlock
 host-suffix, tapjoy.com, AdBlock
@@ -325,6 +324,7 @@ host, adv.bandi.so, AdBlock
 host, app-ad.variflight.com, AdBlock
 host, appnext-a.akamaihd.net, AdBlock
 host, appnext.hs.llnwd.net, AdBlock
+host, g1.tagtic.cn, AdBlock
 host, ggs.myzaker.com, AdBlock
 host, itad.linetv.tw, AdBlock
 host, ja.chushou.tv, AdBlock

@@ -40,14 +40,11 @@ dns:
 
 Proxy:
   - name: "1"
-    type: 0000
+    type: ss
     server: 0.0.0.0
     port: 0000
-    cipher: 0000
+    cipher: chacha20-ietf-poly1305
     password: 0000
-    udp: 0000
-    obfs: 0000
-    obfs-host: 0.0.0.0
 
 
 Proxy Group:
@@ -401,7 +398,6 @@ Rule:
   - DOMAIN-SUFFIX,smartnews-ads.com,AdBlock
   - DOMAIN-SUFFIX,supersonic.com,AdBlock
   - DOMAIN-SUFFIX,supersonicads.com,AdBlock
-  - DOMAIN-SUFFIX,tagtic.cn,AdBlock
   - DOMAIN-SUFFIX,tanv.com,AdBlock
   - DOMAIN-SUFFIX,tanx.com,AdBlock
   - DOMAIN-SUFFIX,tapjoy.com,AdBlock
@@ -440,6 +436,7 @@ Rule:
   - DOMAIN,app-ad.variflight.com,AdBlock
   - DOMAIN,appnext-a.akamaihd.net,AdBlock
   - DOMAIN,appnext.hs.llnwd.net,AdBlock
+  - DOMAIN,g1.tagtic.cn,AdBlock
   - DOMAIN,ggs.myzaker.com,AdBlock
   - DOMAIN,itad.linetv.tw,AdBlock
   - DOMAIN,ja.chushou.tv,AdBlock
@@ -1097,6 +1094,7 @@ Rule:
   - DOMAIN-SUFFIX,myapp.com,Domestic
   - DOMAIN-SUFFIX,myqcloud.com,Domestic
   - DOMAIN-SUFFIX,qq.com,Domestic
+  - DOMAIN-SUFFIX,qqmail.com,Domestic
   - DOMAIN-SUFFIX,servicewechat.com,Domestic
   - DOMAIN-SUFFIX,tencent.com,Domestic
   - DOMAIN-SUFFIX,tencent-cloud.net,Domestic
@@ -1314,6 +1312,7 @@ Rule:
   - DOMAIN-SUFFIX,tophub.today,Domestic
   - DOMAIN-SUFFIX,udacity.com,Domestic
   - DOMAIN-SUFFIX,uning.com,Domestic
+  - DOMAIN-SUFFIX,unity3d.com,Domestic
   - DOMAIN-SUFFIX,vmware.com,Domestic
   - DOMAIN-SUFFIX,weather.com,Domestic
   - DOMAIN-SUFFIX,weico.cc,Domestic
@@ -1762,7 +1761,6 @@ Rule:
   - DOMAIN-SUFFIX,target.com,Global
   - DOMAIN-SUFFIX,thinkgeek.com,Global
   - DOMAIN-SUFFIX,tracfone.com,Global
-  - DOMAIN-SUFFIX,unity3d.com,Global
   - DOMAIN-SUFFIX,uploader.jp,Global
   - DOMAIN-SUFFIX,vevo.com,Global
   - DOMAIN-SUFFIX,viu.tv,Global
