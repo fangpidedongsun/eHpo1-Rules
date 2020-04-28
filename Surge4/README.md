@@ -17,8 +17,6 @@ Maintained by <b>eHpo</b>
 
 3. Surge首页 - 打开MitM开关 - 安装证书；然后到系统设置 - 已下载描述文件 - 安装；最后系统设置 - 通用 - 关于本机 - 证书信任设置，信任刚才安装的证书
 
-另提供了一个只更新 hostname 的 [快捷指令](https://www.icloud.com/shortcuts/c0648ce2d3b8428db028de95383666cb) ，使用方法为在配置列表中选择分享到 `Surge hostname 更新` ，然后等待快捷指令操作完成。
-
 更多支持请查看 [Surge官方说明](https://manual.nssurge.com)
 
 ---

@@ -294,6 +294,7 @@ host-suffix, pts.org.tw, Global
 host-suffix, pubu.com.tw, Global
 host-suffix, pubu.tw, Global
 host-suffix, pureapk.com, Global
+host-suffix, pximg.net, Global
 host-suffix, quora.com, Global
 host-suffix, quoracdn.net, Global
 host-suffix, rakuten.co.jp, Global

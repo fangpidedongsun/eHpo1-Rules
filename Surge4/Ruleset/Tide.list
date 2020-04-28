@@ -313,34 +313,36 @@ URL-REGEX,"^https?+:\/\/api\.daydaycook\.com\.cn\/daydaycook\/server\/ad\/"
 URL-REGEX,"^https?+:\/\/cms\.daydaycook\.com\.cn\/api\/cms\/advertisement\/"
 
 # S
-# > 搜狐
-URL-REGEX,"^https?+:\/\/api\.k\.sohu\.com\/api\/news\/adsense"
-URL-REGEX,"^https?+:\/\/pic\.k\.sohu\.com\/img8\/wb\/tj\/"
-URL-REGEX,"^https?+:\/\/s1\.api\.tv\.itc\.cn\/v4\/mobile\/control\/switch\.json"
-URL-REGEX,"^https?+:\/\/api\.tv\.sohu\.com\/agg\/api\/app\/config\/bootstrap"
+# > 扫描全能王
+URL-REGEX,"^https?+:\/\/api\.intsig\.net\/user\/cs\/operating\/app\/get_startpic\/"
 # > 什么值得买
 URL-REGEX,"^https?+:\/\/api\.smzdm\.com\/v\d\/util\/loading"
 URL-REGEX,"^https?+:\/\/app-api\.smzdm\.com\/util\/loading"
 URL-REGEX,"^https?+:\/\/s\d\.zdmimg\.com\/www\/api\/v\d\/api\/thirdAd\.php"
-# > 四季線上影視4gTV
-URL-REGEX,"^https?+:\/\/service\.4gtv\.tv\/4gtv\/Data\/(?>GetAD|ADLog)"
-# > 肆客足球
-URL-REGEX,"^https?+:\/\/api\.qiuduoduo\.cn\/guideimage"
+# > 神舟专车
+URL-REGEX,"^https?+:\/\/img01\.10101111cdn\.com\/adpos\/"
+# > 省点
+URL-REGEX,"^https?+:\/\/api\.waitwaitpay\.com\/\/api\/splash"
 # > 识货
 URL-REGEX,"^https?+:\/\/www\.shihuo\.cn\/app\d\/saveAppInfo"
 # > 首汽约车
 URL-REGEX,"^https?+:\/\/gw-passenger\.01zhuanche\.com\/gw-passenger\/car-rest\/webservice\/passenger\/recommendADs"
 URL-REGEX,"^https?+:\/\/gw-passenger\.01zhuanche\.com\/gw-passenger\/zhuanche-passenger-token\/leachtoken\/webservice\/homepage\/queryADs"
-# > 苏宁
-URL-REGEX,"^https?+:\/\/image\.suning\.cn\/uimg\/ma\/ad\/"
-# > 神舟专车
-URL-REGEX,"^https?+:\/\/img01\.10101111cdn\.com\/adpos\/"
-# > 扫描全能王
-URL-REGEX,"^https?+:\/\/api\.intsig\.net\/user\/cs\/operating\/app\/get_startpic\/"
-# > 省点
-URL-REGEX,"^https?+:\/\/api\.waitwaitpay\.com\/\/api\/splash"
+# > 顺丰速运
+URL-REGEX,"^https?+:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/ad\/queryAdImages"
+# > 四季線上影視4gTV
+URL-REGEX,"^https?+:\/\/service\.4gtv\.tv\/4gtv\/Data\/(?>GetAD|ADLog)"
+# > 肆客足球
+URL-REGEX,"^https?+:\/\/api\.qiuduoduo\.cn\/guideimage"
 # > 搜狗
 URL-REGEX,"^https?+:\/\/business-cdn\.shouji\.sogou\.com\/wapdl\/hole\/.+?\.jpg"
+# > 搜狐
+URL-REGEX,"^https?+:\/\/api\.k\.sohu\.com\/api\/news\/adsense"
+URL-REGEX,"^https?+:\/\/pic\.k\.sohu\.com\/img8\/wb\/tj\/"
+URL-REGEX,"^https?+:\/\/s1\.api\.tv\.itc\.cn\/v4\/mobile\/control\/switch\.json"
+URL-REGEX,"^https?+:\/\/api\.tv\.sohu\.com\/agg\/api\/app\/config\/bootstrap"
+# > 苏宁
+URL-REGEX,"^https?+:\/\/image\.suning\.cn\/uimg\/ma\/ad\/"
 
 # T
 # > 腾讯
@@ -497,7 +499,7 @@ URL-REGEX,"^https?+:\/\/api\.zhihu\.com\/(?>launch|real_time)"
 URL-REGEX,"^https?+:\/\/api\.zhihu\.com\/commercial_api\/(?>launch|real_time)"
 URL-REGEX,"^https?+:\/\/api\.zhihu\.com\/fringe\/ad"
 URL-REGEX,"^https?+:\/\/api\.zhihu\.com\/(?>ab|adx|xen|drama|zst|ad-style-service|market\/popover|search\/(?>top|tab|preset)|.*?(?>guide|recommendations|extended|featured-comment-ad))"
-URL-REGEX,"^https?+:\/\/www\.zhihu\.com\/api\/v4\/c(?>reator|ommunity-ad)"
+URL-REGEX,"^https?+:\/\/www\.zhihu\.com\/api\/v4\/community-ad"
 # > 追书神器
 URL-REGEX,"^https?+:\/\/(?>api|b)\.zhuishushenqi\.com\/advert"
 URL-REGEX,"^https?+:\/\/api\.zhuishushenqi\.com\/splashes\/ios"
@@ -516,6 +518,8 @@ URL-REGEX,"^https?+:\/\/.+?\.snssdk\.com\/motor\/operation\/activity\/display\/c
 URL-REGEX,"^https?+:\/\/.+?\/img\/ad\.union\.api\/"
 # > 涨乐财富通
 URL-REGEX,"^https?+:\/\/d\.zhangle\.com\/pic\/cft\/interaction\/\d{13}-1242-2248\.jpg"
+# > 中国大学慕课
+URL-REGEX,"^https?+:\/\/www\.icourse163\.org\/mob\/j\/v1\/mobRecommendRPCBean\.getMaxWeightAdvertisement\.rpc"
 # > 中国银行
 URL-REGEX,"^https?+:\/\/mlife\.jf365\.boc\.cn\/AppPrj\/FirstPic\.do\?"
 # > 中国工商银行
