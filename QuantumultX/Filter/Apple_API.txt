@@ -9,5 +9,15 @@ host-suffix, icloud.com, Apple_API
 host-suffix, icloud-content.com, Apple_API
 host-suffix, itunes.com, Apple_API
 host-suffix, me.com, Apple_API
+ip-cidr, 17.0.0.0/8, Apple_API
+ip-cidr, 63.92.224.0/19, Apple_API
+ip-cidr, 65.199.22.0/23, Apple_API
+ip-cidr, 139.178.128.0/18, Apple_API
+ip-cidr, 144.178.0.0/19, Apple_API
+ip-cidr, 144.178.36.0/22, Apple_API
+ip-cidr, 144.178.48.0/20, Apple_API
+ip-cidr, 192.35.50.0/24, Apple_API
+ip-cidr, 198.183.17.0/24, Apple_API
+ip-cidr, 205.180.175.0/24, Apple_API
 # Apple News
 host-suffix, apple.news, Apple_API

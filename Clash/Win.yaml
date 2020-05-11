@@ -8,7 +8,6 @@ external-controller: 127.0.0.1:9090
 
 experimental:
   ignore-resolve-fail: true
-  interface-name: 
 
 
 dns:
@@ -38,10 +37,10 @@ dns:
       - 240.0.0.0/4
 
 
-Proxy: []
+proxies: []
 
 
-Proxy Group:
+proxy-groups:
   - name: "Global"
     type: select
     proxies:
@@ -104,7 +103,7 @@ Proxy Group:
 
 
 
-Rule:
+rules:
   - RULE-SET,https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Liby.list,AdBlock
 
   - RULE-SET,https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Apple_CDN.list,Apple_CDN

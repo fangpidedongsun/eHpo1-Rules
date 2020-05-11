@@ -136,15 +136,6 @@ host-suffix, v-56.com, Domestic
 host-suffix, sogo.com, Domestic
 host-suffix, sogou.com, Domestic
 host-suffix, sogoucdn.com, Domestic
-# > Steam
-host-suffix, steampowered.com, Domestic
-host-suffix, steam-chat.com, Domestic
-host-suffix, steamgames.com, Domestic
-host-suffix, steamusercontent.com, Domestic
-host-suffix, steamcontent.com, Domestic
-host-suffix, steamstatic.com, Domestic
-host-suffix, steamcdn-a.akamaihd.net, Domestic
-host-suffix, steamstat.us, Domestic
 # > Tencent
 user-agent, MicroMessenger%20Client, Domestic
 user-agent, WeChat*, Domestic

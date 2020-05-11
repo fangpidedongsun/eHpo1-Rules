@@ -38,7 +38,7 @@ dns:
       - 240.0.0.0/4
 
 
-Proxy:
+proxies:
   - name: "1"
     type: ss
     server: 0.0.0.0
@@ -47,7 +47,7 @@ Proxy:
     password: 0000
 
 
-Proxy Group:
+proxy-groups:
   - name: "Global"
     type: select
     proxies:
@@ -109,7 +109,7 @@ Proxy Group:
       - 1
 
 
-Rule:
+rules:
 # Liby.list
 # Internet Service Providers Hijacking 运营商劫持
   - DOMAIN-SUFFIX,17gouwuba.com,AdBlock
@@ -687,9 +687,6 @@ Rule:
 # > ZOL
   - DOMAIN,apppv.zol.com.cn,AdBlock
   - DOMAIN,pvnapp.zol.com.cn,AdBlock
-# > 字节跳动
-  - DOMAIN,sf3-ttcdn-tos.pstatp.com,AdBlock
-  - DOMAIN,sf6-ttcdn-tos.pstatp.com,AdBlock
 # > 知到
   - DOMAIN,app-advertise.zhihuishu.com,AdBlock
 
@@ -1078,15 +1075,6 @@ Rule:
   - DOMAIN-SUFFIX,sogo.com,Domestic
   - DOMAIN-SUFFIX,sogou.com,Domestic
   - DOMAIN-SUFFIX,sogoucdn.com,Domestic
-# > Steam
-  - DOMAIN-SUFFIX,steampowered.com,Domestic
-  - DOMAIN-SUFFIX,steam-chat.com,Domestic
-  - DOMAIN-SUFFIX,steamgames.com,Domestic
-  - DOMAIN-SUFFIX,steamusercontent.com,Domestic
-  - DOMAIN-SUFFIX,steamcontent.com,Domestic
-  - DOMAIN-SUFFIX,steamstatic.com,Domestic
-  - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net,Domestic
-  - DOMAIN-SUFFIX,steamstat.us,Domestic
 # > Tencent
   - DOMAIN-SUFFIX,gtimg.com,Domestic
   - DOMAIN-SUFFIX,idqqimg.com,Domestic
@@ -1395,11 +1383,8 @@ Rule:
   - DOMAIN-SUFFIX,telesco.pe,Global
   - IP-CIDR,91.108.4.0/22,Global,no-resolve
   - IP-CIDR,91.108.8.0/21,Global,no-resolve
-  - IP-CIDR,91.108.16.0/21,Global,no-resolve
-  - IP-CIDR,91.108.56.0/23,Global,no-resolve
+  - IP-CIDR,91.108.16.0/22,Global,no-resolve
   - IP-CIDR,91.108.56.0/22,Global,no-resolve
-  - IP-CIDR,95.161.64.0/20,Global,no-resolve
-  - IP-CIDR,109.239.140.0/24,Global,no-resolve
   - IP-CIDR,149.154.160.0/20,Global,no-resolve
 # > Line
   - DOMAIN-SUFFIX,line.me,Global
@@ -1876,6 +1861,7 @@ Rule:
   - DOMAIN-SUFFIX,sparknotes.com,Global
   - DOMAIN-SUFFIX,streetvoice.com,Global
   - DOMAIN-SUFFIX,supertop.co,Global
+  - DOMAIN-SUFFIX,tinyurl.com,Global
   - DOMAIN-SUFFIX,tv.com,Global
   - DOMAIN-SUFFIX,typepad.com,Global
   - DOMAIN-SUFFIX,udnbkk.com,Global

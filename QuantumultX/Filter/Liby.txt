@@ -577,8 +577,5 @@ host, ehg-youtube.hitbox.com, AdBlock
 # > ZOL
 host, apppv.zol.com.cn, AdBlock
 host, pvnapp.zol.com.cn, AdBlock
-# > 字节跳动
-host, sf3-ttcdn-tos.pstatp.com, AdBlock
-host, sf6-ttcdn-tos.pstatp.com, AdBlock
 # > 知到
 host, app-advertise.zhihuishu.com, AdBlock

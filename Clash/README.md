@@ -11,7 +11,7 @@ Maintained by <b>eHpo</b>
 
 ### Windows
 
-使用 CfW作者 [Fndroid](https://github.com/Fndroid) 的 [Clash Config Builder](https://github.com/Fndroid/clash-config-builder/blob/master/README.md) Remote Mode  
+使用 CfW 作者 [Fndroid](https://github.com/Fndroid) 的 [Clash Config Builder](https://github.com/Fndroid/clash-config-builder/blob/master/README.md) Remote Mode  
 配置文件：  
 <https://raw.githubusercontent.com/eHpo1/Rules/master/Clash/Win.yaml>
 
