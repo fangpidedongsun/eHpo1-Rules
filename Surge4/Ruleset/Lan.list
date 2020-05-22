@@ -1,4 +1,4 @@
-# Region.list
+# LAN.list
 # > LAN
 DOMAIN-SUFFIX,local
 DOMAIN,localhost
@@ -14,7 +14,3 @@ IP-CIDR,198.51.100.0/24,no-resolve
 IP-CIDR,203.0.113.0/24,no-resolve
 IP-CIDR,224.0.0.0/4,no-resolve
 IP-CIDR,240.0.0.0/4,no-resolve
-# > China
-DOMAIN-SUFFIX,cn
-DOMAIN-SUFFIX,xn--fiqs8s
-GEOIP,CN
