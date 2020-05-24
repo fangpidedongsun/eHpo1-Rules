@@ -78,10 +78,6 @@ API 服务类  推荐选择账号所在区
 
 国内、国际常用网页
 
-### Region.list
-
-用于修正规则，包含 LAN、GeoIP,CN
-
 ### ChinaMedia.list
 
 回国专用list，回国规则暂无模板，只有一个面向大陆媒体的list

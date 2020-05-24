@@ -180,6 +180,7 @@ host-suffix, foreignpolicy.com, Global
 host-suffix, freebrowser.org, Global
 host-suffix, freewechat.com, Global
 host-suffix, freeweibo.com, Global
+host-suffix, figma.com, Global
 host-suffix, friday.tw, Global
 host-suffix, ftchinese.com, Global
 host-suffix, ftimg.net, Global
@@ -332,6 +333,7 @@ host-suffix, theguardian.com, Global
 host-suffix, theinitium.com, Global
 host-suffix, thetvdb.com, Global
 host-suffix, tineye.com, Global
+host-suffix, tinyurl.com, Global
 host-suffix, torproject.org, Global
 host-suffix, tumblr.com, Global
 host-suffix, turbobit.net, Global

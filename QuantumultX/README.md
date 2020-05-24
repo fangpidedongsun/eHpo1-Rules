@@ -77,14 +77,6 @@ https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Filter/Domestic
 https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Filter/Global.txt
 ```
 
-### Region.list
-
-用于修正规则，包含 LAN、GeoIP,CN
-
-```
-https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Filter/Region.txt
-```
-
 ### Rewrite.txt
 
 URL重写（包含 Tide.list）

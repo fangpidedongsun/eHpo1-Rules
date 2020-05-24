@@ -43,10 +43,6 @@ API 服务类  推荐选择账号所在区
 
 国内、国际常用网页
 
-### Region.list
-
-用于修正规则，包含 LAN、GeoIP,CN
-
 ---
 
 <h3 align="center">

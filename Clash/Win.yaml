@@ -114,6 +114,7 @@ rules:
 
   - RULE-SET,https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Domestic.list,Domestic
   - RULE-SET,https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Global.list,Global
-  - RULE-SET,https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Region.list,Domestic
+  
+  - GEOIP,CN,Domestic
 
   - MATCH,Global

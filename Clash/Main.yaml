@@ -1,3 +1,5 @@
+# 此文件暂停维护
+
 port: 7890
 socks-port: 7891
 allow-lan: false
@@ -266,54 +268,6 @@ rules:
   - IP-CIDR,220.115.251.25/32,AdBlock,no-resolve
   - IP-CIDR,222.73.156.235/32,AdBlock,no-resolve
 
-# Analytics 数据收集
-# > Ali
-  - DOMAIN,acs4baichuan.m.taobao.com,AdBlock
-  - DOMAIN,adash.m.taobao.com,AdBlock
-  - DOMAIN,adashbc.m.taobao.com,AdBlock
-  - DOMAIN,adashbc.ut.taobao.com,AdBlock
-  - DOMAIN,adashx.m.taobao.com,AdBlock
-  - DOMAIN,adashxgc.ut.taobao.com,AdBlock
-  - DOMAIN,agoodm.m.taobao.com,AdBlock
-  - DOMAIN,ai.m.taobao.com,AdBlock
-  - DOMAIN,ai.taobao.com,AdBlock
-  - DOMAIN,api.waptest.taobao.com,AdBlock
-  - DOMAIN,apoll.m.taobao.com,AdBlock
-  - DOMAIN,c-adash.m.taobao.com,AdBlock
-  - DOMAIN,h-adashx.ut.taobao.com,AdBlock
-  - DOMAIN,m-adash.m.taobao.com,AdBlock
-  - DOMAIN,nbsdk-baichuan.taobao.com,AdBlock
-  - DOMAIN,pics.taobaocdn.com,AdBlock
-  - DOMAIN,pindao.huoban.taobao.com,AdBlock
-  - DOMAIN,re.m.taobao.com,AdBlock
-  - DOMAIN,re.taobao.com,AdBlock
-  - DOMAIN,rj.m.taobao.com,AdBlock
-  - DOMAIN,sdkinit.taobao.com,AdBlock
-  - DOMAIN,show.re.taobao.com,AdBlock
-  - DOMAIN,simaba.taobao.com,AdBlock
-  - DOMAIN,strip.taobaocdn.com,AdBlock
-  - DOMAIN,temai.taobao.com,AdBlock
-  - DOMAIN,tunion-api.m.taobao.com,AdBlock
-  - DOMAIN,unitacs.m.taobao.com,AdBlock
-  - DOMAIN,w.m.taobao.com,AdBlock
-# >> Umeng
-  - DOMAIN-SUFFIX,umeng.com,AdBlock
-  - DOMAIN-SUFFIX,umengcloud.com,AdBlock
-  - DOMAIN-SUFFIX,umsns.com,AdBlock
-# > Appsflyer
-  - DOMAIN-SUFFIX,appsflyer.com,AdBlock
-# > Baidu
-  - DOMAIN-SUFFIX,pos.baidu.com,AdBlock
-  - DOMAIN,hm.baidu.com,AdBlock
-  - DOMAIN,hpd.baidu.com,AdBlock
-# > crashlytics
-  - DOMAIN-SUFFIX,crashlytics.com,AdBlock
-# > Tencent
-  - DOMAIN,ios.bugly.qq.com,AdBlock
-  - DOMAIN,pingma.qq.com,AdBlock
-# > Other
-  - DOMAIN-SUFFIX,mob.com,AdBlock
-
 # Advertising 广告
 # > General
   - DOMAIN-KEYWORD,adservice,AdBlock
@@ -564,6 +518,8 @@ rules:
   - DOMAIN,adeng.hpplay.cn,AdBlock
   - DOMAIN,rp.hpplay.cn,AdBlock
 # (M)
+# > 美团
+  - DOMAIN,flowplus.meituan.net,AdBlock
 # > MI
   - DOMAIN-SUFFIX,ad.intl.xiaomi.com,AdBlock
   - DOMAIN-SUFFIX,ad.xiaomi.com,AdBlock

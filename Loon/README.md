@@ -85,14 +85,6 @@ https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Domestic.lis
 https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Global.list
 ```
 
-### Region.list
-
-用于修正规则，包含 LAN、GeoIP,CN
-
-```
-https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Region.list
-```
-
 ### ChinaMedia.list
 
 回国专用list，回国规则暂无模板，只有一个面向大陆媒体的list
